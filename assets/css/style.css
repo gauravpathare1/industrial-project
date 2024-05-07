@@ -1,0 +1,162 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text-color{ color: #00F9FB;
+             color: #002577;}
+.background{background:#00FFFF;
+            background: #022D7C;}
+            /* header section start */
+header{
+    width: 100%;
+    height: 60px;
+    color:#fff;
+    display: flex;
+    line-height: 60px;
+    background: #022D7C;
+    padding:0px 100px;
+    justify-content: space-between;
+
+}
+header .company-name span{
+    font-size: 15px;
+    font-weight: normal;
+
+}
+header .contact span{
+    color:  #00F9FB;
+}
+/* header section end */
+
+/* banner section start */
+main{
+    color: #fff;
+    width: 100%;
+    height: 550px;
+    padding: 0px 100px;
+    background: url(../img/industrial\ image.jpg);
+    background-size:cover;
+    background-position: center center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main form{
+    background: #002577;
+    padding:12px;
+    border-radius: 10px;
+
+}
+main form input , button{
+    height:45px;
+    margin:2px 0px;
+    text-align:center;
+    text-transform: capitalize;
+}
+/* banner section end */
+
+/* main section start */
+.main{
+    width:100%;
+    padding:60px 100px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.innovation, .people, .solution{
+    width: 30%;
+    height: 100px;
+
+}
+.main img{
+    width: 90%;
+}
+.main h3{
+    color: #002577;
+}
+.main p{
+    color: #022D7C;
+}
+.company-details{
+    width:100%;
+    padding: 0px 100px;
+}
+.company-details .top,
+company-details .bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.top div, .bottom div{
+    width: 50%;
+}
+div img{
+    width: 100%;
+
+}
+div.content{
+    padding: 100px;
+}
+/* main section end */
+
+.about{
+    width: 100%;
+    height: auto;
+    color:#fff;
+    padding: 60px 250px;
+    background:#022D7C;
+    margin-top: 15%;
+    text-align: center;
+}
+.about h2{
+    font-size: 33px;
+    margin-bottom: 7px;
+    text-align: center;
+}
+.about p{
+    font-size:18px;
+    font-weight:normal;
+}
+.about button{
+    color: #fff;
+    margin-top:10px ;
+    padding: 15px 120px;
+    font-weight: bold;
+    background: #022D7C;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    
+}
+
+/* service section start */
+.service{
+    width: 100%;
+    height: auto;
+    padding:0px 100px;
+}
+.service .upper,.service .lower{
+    display: flex;
+    align-items:center;
+}
+.service .content{
+    width: 50%;
+}
+.service .image{
+    width:600px;
+    height:700%;
+}
+.content .h3{
+    text-align: center;
+}
+/* service section end */
+
+.footer{
+    background-color: rgb(10, 10, 120);
+    color:white;
+    text-align: center;
+    height: 45px;
+    padding-top: 12px;
+    margin-top: 30px;
+}
